@@ -33,23 +33,34 @@ A simple, responsive portfolio website showcasing projects, client work, and cer
 
 ## 📁 Project Structure
 
-├── index.html                # Main page
-├── package.json              # Dependencies
-├── tailwind.config.js        # Tailwind configuration
+portofolio-rasas/
+├── index.html
+├── package.json
+├── tailwind.config.js
 ├── src/
-│   └── input.css             # Source CSS
+│   └── input.css
 ├── dist/
 │   ├── css/
-│   │   └── final.css         # Compiled CSS
+│   │   └── final.css
 │   ├── js/
-│   │   └── script.js         # Navbar, hamburger, dark mode
+│   │   └── script.js
 │   └── img/
 │       ├── logo.png
 │       ├── rasas.png
-│       ├── portfolio/        # Project screenshots
-│       ├── clients/          # Client logos (SVG)
-│       └── sertifikat/       # Certificates (1-8.png)
+│       ├── portfolio/
+│       ├── clients/
+│       └── sertifikat/
 └── .gitignore
+| Path | Description |
+|------|-------------|
+| `index.html` | Main page |
+| `src/input.css` | Source CSS |
+| `dist/css/final.css` | Compiled CSS |
+| `dist/js/script.js` | Navbar, hamburger, dark mode |
+| `dist/img/portfolio/` | Project screenshots |
+| `dist/img/clients/` | Client logos (SVG) |
+| `dist/img/sertifikat/` | Certificates (1-8.png) |
+
 ## 🚀 Getting Started
 sh
 Clone the repository
