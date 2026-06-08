@@ -33,21 +33,23 @@ A simple, responsive portfolio website showcasing projects, client work, and cer
 
 ## 📁 Project Structure
 
-├── index.html              # Main page
-├── package.json            # Dependencies
-├── tailwind.config.js      # Tailwind configuration
+├── index.html                # Main page
+├── package.json              # Dependencies
+├── tailwind.config.js        # Tailwind configuration
 ├── src/
-│   └── input.css           # Source CSS
+│   └── input.css             # Source CSS
 ├── dist/
-│   ├── css/final.css       # Compiled CSS
-│   ├── js/script.js        # Navbar, hamburger, dark mode
+│   ├── css/
+│   │   └── final.css         # Compiled CSS
+│   ├── js/
+│   │   └── script.js         # Navbar, hamburger, dark mode
 │   └── img/
 │       ├── logo.png
 │       ├── rasas.png
-│       ├── portfolio/      # Project screenshots
-│       ├── clients/        # Client logos (SVG)
-│       └── sertifikat/     # Certificates (1-8.png)
-└── .gitignore (1/2)
+│       ├── portfolio/        # Project screenshots
+│       ├── clients/          # Client logos (SVG)
+│       └── sertifikat/       # Certificates (1-8.png)
+└── .gitignore
 ## 🚀 Getting Started
 sh
 Clone the repository
