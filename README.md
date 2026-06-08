@@ -34,22 +34,23 @@ A simple, responsive portfolio website showcasing projects, client work, and cer
 ## 📁 Project Structure
 
 portofolio-rasas/
-├── index.html
-├── package.json
-├── tailwind.config.js
-├── src/
-│   └── input.css
-├── dist/
-│   ├── css/
-│   │   └── final.css
-│   ├── js/
-│   │   └── script.js
-│   └── img/
-│       ├── logo.png
-│       ├── rasas.png
-│       ├── portfolio/
-│       ├── clients/
-│       └── sertifikat/
+|-- index.html
+|-- package.json
+|-- tailwind.config.js
+|-- .gitignore
+|-- src/
+|   `-- input.css
+`-- dist/
+    |-- css/
+    |   `-- final.css
+    |-- js/
+    |   `-- script.js
+    `-- img/
+        |-- logo.png
+        |-- rasas.png
+        |-- portfolio/
+        |-- clients/
+        `-- sertifikat/
 └── .gitignore
 | Path | Description |
 |------|-------------|
